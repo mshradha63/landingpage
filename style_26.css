@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    margin-left: 240px;
+}
+.navbar-brand{
+   font-family: cursive;
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+.navbar-nav #home{
+    color: orange;
+}
+#button{
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 0%; 
+    margin-right:10px;
+
+
+
+}
+ .row a {
+    border-color: rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 0%;
+}
+.row a:hover {
+    border-color: rgb(226, 135, 31);
+    background-color:rgb(226, 135, 31);
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 0%;
+}
+
+.carousel-inner .carousel-caption {
+    z-index:1;
+    font-size: 1em;
+    margin-top: -100px;
+    color: black;
+    }
+    .slide-1 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food7.jpg");
+    }
+    .slide-2 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food9.webp");
+    }
+    .slide-3 {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food10.jpg");
+    }
+    .bg-cover{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #carouselExample h6::after,
+    #carouselExample h6::before {
+    
+            content: " ";
+            width: 20px;
+            height: 4px;
+            background-color: white;
+            white-space: nowrap;
+            margin: 0 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    #about{
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    section {
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    .shodow-on-hover{
+        transition: all 0.4s;
+
+    }
+    .shodow-on-hover:hover{
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+    }
+    .menu-item-content h5 a{
+        color: black;
+        text-decoration: none;
+
+    }
+    .menu-item-content h5 a:hover{
+        color: orange;
+    }
+    .row h1{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .divider .text{
+        text-align: justify;
+        justify-content: space-around;
+        margin-left: 50px;
+        display: block;
+    }
+    .divider a{
+        margin-top: 20px;
+    }
+    .intro-text{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .intro-text p{
+        max-width: 500px;
+        margin: 16px auto 0 auto;
+        text-align: justify;
+    }
+    #menu .nav-pills .nav-link{
+        background-color: white;
+        margin-left: 8px;
+        margin-right: 8px;
+        color: #222;
+        border-radius: 100px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+    }
+    #menu .nav-pills .nav-link.active{
+        background-color: orange;
+        color: white;
+    }
+    
+    
+    .table img{
+        width: 280px;
+        height: 200px;
+
+      .table{
+        flex-wrap: wrap;
+      }  
+        
+    }
+    .menu-item .stars{
+        color: orange;
+        
+    }
+    #features{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("foodimage.jpg");
+        color:white;
+        font-size: 1rem;
+    }
+    .feature{
+        border: 2px solid white;
+    }
+    .feature .feature-icon{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 94, 0);
+        color: white;
+        font-size: 28px;
+        display: inline-grid;
+        align-content: center;
+        text-align: center;
+
+    }
+    .feature p{
+        text-align:center;
+        font-weight: 600;
+    }
+    .feature h4{
+        font-weight: 600;
+    }
+   .team-member img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 orangered;
+    border-radius: 100px;
+   }
+   #reviews{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("food23.jpg");
+    height: 900px;
+}
+    .review img{
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+    }
+    .review .quote-icon{
+        font-size: 74px;
+        color: orangered;
+        line-height: 1;
+    }
+    .review .stars{
+        color: orangered;
+    }
+    #reviews .carousel-indicators {
+        margin-bottom: -3rem;
+    }
+    #reservation .form-control{
+        border-radius: 0;
+    }
+    #reservation .form-control:focus{
+        box-shadow: none;
+        border-color: orangered;
+
+
+
+    }
+    .reservation input.form-control{
+        height: 47px;
+    }
+    .insta-post{
+        position: relative;
+        
+    }
+    .insta-post .insta-btn{
+        width: 90px;
+        height: 90px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 26px;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    .insta-post img{
+        transition: all 0.4s;
+
+    }
+    .insta-post img:hover img{
+        transform: scale(1.2);
+
+    }
+    .insta-post:hover .insta-btn{
+        opacity: 1;
+    }
+    .blog-post img{
+        width: 40%;
+        object-fit: cover;
+
+    }
+     footer{
+         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("f_5.jpg");
+         height: 510px;
+         padding-top: 120px;
+         padding-bottom: 30px;
+   }
+   footer p,
+   footer a{
+    color: white;
+
+   }
+   footer .social-links a{
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 10px;
+   }
+   .footer-bottom{
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+
+}
+        
+    
+    @media(max-width: 768px) {
+
+
+        .blog-post{
+            flex-direction:column;
+        }
+        .blog-post img {
+            width: 100%;
+        }
+    }
